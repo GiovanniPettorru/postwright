@@ -1,0 +1,100 @@
+{
+  "name": "Alex Rivera",
+  "headline": "Renewable Energy Engineer | Grid Storage Researcher | Writes about the energy transition",
+  "audience": "Engineers and researchers in energy and power systems, policy analysts, cleantech founders, students considering a career in energy.",
+  "core_themes": [
+    {
+      "name": "Grid-scale energy storage",
+      "description": "Battery chemistries beyond lithium, long-duration storage, how storage changes grid economics. Interested in real deployment data, not announcements.",
+      "weight": 10
+    },
+    {
+      "name": "Power system engineering",
+      "description": "Grid stability with high renewable penetration, interconnection queues, transmission build-out, demand response.",
+      "weight": 9
+    },
+    {
+      "name": "Research and academia",
+      "description": "How energy research gets funded and published, the gap between lab results and deployed systems, PhD and postdoc life.",
+      "weight": 7
+    },
+    {
+      "name": "Careers in engineering",
+      "description": "Moving between academia and industry, skills that actually transfer, mentoring early-career engineers.",
+      "weight": 6
+    }
+  ],
+  "adjacent_interests": [
+    {
+      "name": "Energy prices and markets",
+      "description": "Wholesale electricity prices, capacity markets, the cost curve of batteries and solar.",
+      "bridge_to_core": "Price signals decide which storage projects get built, which directly shapes the technologies worth researching.",
+      "weight": 8
+    },
+    {
+      "name": "Public research funding",
+      "description": "National and EU funding programmes for energy research, grant outcomes, infrastructure investment.",
+      "weight": 7,
+      "bridge_to_core": "Funding decisions determine which labs can run multi-year storage experiments, including mine."
+    },
+    {
+      "name": "Energy and industrial policy",
+      "description": "Permitting reform, grid regulation, subsidies and tariffs on clean technology.",
+      "bridge_to_core": "Regulation is usually the binding constraint on deployment, more than the engineering itself.",
+      "weight": 7
+    },
+    {
+      "name": "Venture capital in cleantech",
+      "description": "Where cleantech money is going, which startups raise and which fold.",
+      "bridge_to_core": "Startup funding is the fastest indicator of which storage approaches are considered commercially credible.",
+      "weight": 5
+    }
+  ],
+  "geo_priorities": [
+    { "place": "Valencia", "weight": 9, "note": "My city: local grid projects, university news and regional industry carry high interest." },
+    { "place": "Spain", "weight": 8, "note": "National energy policy and auction results directly affect my field." },
+    { "place": "European Union", "weight": 7, "note": "Regulation and research funding at EU level set the frame for everything national." },
+    { "place": "United States", "weight": 5, "note": "Relevant mainly for technology and market signals, less for policy." },
+    { "place": "World", "weight": 4, "note": "Only major technological or market shifts." }
+  ],
+  "tone_of_voice": {
+    "descriptors": ["analytical", "plain-spoken", "evidence-first", "curious", "unhyped"],
+    "do": [
+      "open with a concrete number or a specific fact",
+      "explain the mechanism, not just the headline",
+      "say explicitly what is still uncertain",
+      "credit the people and papers behind a result"
+    ],
+    "dont": [
+      "use hype words like revolutionary, game-changer, insane",
+      "post motivational content or generic career advice",
+      "take partisan political positions",
+      "give investment advice"
+    ],
+    "signature_moves": [
+      "opens with a figure and where it comes from",
+      "one short paragraph per idea, no walls of text",
+      "ends with an open question to the reader rather than a call to action",
+      "occasionally contrasts the lab result with what deployment actually looks like"
+    ],
+    "language": "en"
+  },
+  "top_performing_examples": [
+    {
+      "excerpt": "A 100 MW battery in our region ran 312 full cycles last year. The business case assumed 450. The gap is not chemistry, it is market design: the capacity payment rewards being available, not being used.",
+      "why_it_worked": "Specific number, counter-intuitive conclusion, and it reframed a technical topic as an economic one without oversimplifying.",
+      "metrics": "reactions: 410, comments: 58"
+    },
+    {
+      "excerpt": "Three years into this postdoc I have learned that the hardest part of energy research is not the experiment. It is the eighteen months between a working prototype and anyone being allowed to connect it to a grid.",
+      "why_it_worked": "Personal, honest about friction, and it resonated with everyone working between research and deployment.",
+      "metrics": "reactions: 290, comments: 44"
+    },
+    {
+      "excerpt": "Sodium-ion is not going to replace lithium. It is going to take the applications where energy density never mattered in the first place. That is still an enormous market, and it is the one worth watching.",
+      "why_it_worked": "Clear position against a common overstatement, with a constructive alternative.",
+      "metrics": ""
+    }
+  ],
+  "editorial_notes": "Write in English. Lead with evidence, never with adjectives. One idea per post, 150-250 words. Technical depth is welcome but every post must be readable by a policy analyst with no engineering background. Admit uncertainty explicitly rather than hedging vaguely. Never give investment advice and never take a party-political side; analyse policy by its effects. Leave [...] placeholders where a personal anecdote or a specific local figure belongs rather than inventing one."
+}

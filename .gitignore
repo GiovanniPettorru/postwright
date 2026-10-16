@@ -1,0 +1,47 @@
+# ---------------------------------------------------------------- secrets
+# NEVER commit the real .env: it holds your bot token and your API keys.
+.env
+.env.*
+!.env.example
+
+# ---------------------------------------------------------------- personal data
+# Everything in data/ is yours: CV, LinkedIn posts, persona card, local database.
+data/*
+!data/README.md
+!data/*.example.json
+!data/*.example.txt
+!data/.gitkeep
+
+# ---------------------------------------------------------------- python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---------------------------------------------------------------- editors / OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------- runtime
+*.log
+*.db
+*.sqlite
+*.sqlite3

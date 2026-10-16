@@ -1,0 +1,44 @@
+[reactions: 410, comments: 58]
+A 100 MW battery in our region ran 312 full cycles last year. The business case
+assumed 450.
+
+The gap is not chemistry. The cells are fine. The gap is market design: the
+capacity payment rewards being available, not being used.
+
+We keep optimising the asset and ignoring the rules that decide how often it is
+allowed to work.
+
+What would change first in your market if availability stopped paying better
+than delivery?
+---
+[reactions: 290, comments: 44]
+Three years into this postdoc I have learned that the hardest part of energy
+research is not the experiment.
+
+It is the eighteen months between a working prototype and anyone being allowed
+to connect it to a grid.
+
+Nobody writes a paper about those eighteen months, which is probably why so many
+good results stop there.
+---
+Sodium-ion is not going to replace lithium.
+
+It is going to take the applications where energy density never mattered in the
+first place: stationary storage, backup power, anything that sits still.
+
+That is still an enormous market, and it is the one worth watching. The
+replacement narrative is the wrong frame, and it keeps distracting from the
+question that matters, which is cost per cycle at the point of installation.
+---
+# FORMAT NOTES (delete these lines in your real posts.txt)
+#
+# - Posts are separated by a line containing exactly three dashes: ---
+# - python main.py convert-linkedin data/Shares.csv generates this file for you
+#   from your LinkedIn data export, and writes a [date: YYYY-MM-DD] line above
+#   each post.
+# - The LinkedIn export contains no engagement metrics, so add them by hand on
+#   your 5-10 best posts, as a line ABOVE the [date: ...] line:
+#       [reactions: 240, comments: 31]
+#       [date: 2026-03-14]
+#       The post text...
+#   Agent 0 uses them to work out which of your posts actually landed.

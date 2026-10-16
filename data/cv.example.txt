@@ -1,0 +1,66 @@
+# This is an EXAMPLE of what data/cv.txt should look like: plain text, no
+# formatting, no personal contact details. Agent 0 reads it to understand your
+# field, your work and your interests.
+#
+# IMPORTANT: in your real cv.txt, remove your home address, phone number and
+# personal email. This file is sent to the AI provider you configure.
+
+ALEX RIVERA
+Renewable Energy Engineer, Ph.D.
+Valencia, Spain
+
+PROFILE
+Energy engineer working on grid-scale storage. Six years between university
+research and industrial projects, with a focus on how storage technologies
+behave once they are actually connected to a distribution grid.
+
+EDUCATION
+Ph.D. in Electrical Engineering, Polytechnic University of Valencia, 2022
+  Thesis: degradation models for grid-connected battery systems under real
+  dispatch profiles.
+M.Sc. in Energy Engineering, Polytechnic University of Valencia, 2018
+B.Sc. in Industrial Engineering, University of Zaragoza, 2016
+
+CURRENT POSITION
+Postdoctoral Researcher, Institute of Energy Engineering, 2022 - present
+  Leads the storage work package of a national project on distribution-grid
+  flexibility. Supervises two master students. Coordinates the lab's
+  battery test bench.
+
+EXPERIENCE
+Grid Integration Engineer, Iberdrola (internship + contract), 2018 - 2019
+  Interconnection studies for utility-scale solar plants.
+
+RESEARCH INTERESTS
+Grid-scale energy storage, sodium-ion and flow batteries, long-duration
+storage, power system stability under high renewable penetration, market
+design for flexibility services, the gap between laboratory results and
+deployed systems.
+
+SELECTED PUBLICATIONS
+Rivera A., et al. "Cycle-life degradation of LFP systems under real dispatch
+  profiles", IEEE Transactions on Energy Conversion, 2024.
+Rivera A., Moreno L. "Capacity market design and battery utilisation: evidence
+  from the Iberian market", Energy Policy, 2023.
+Rivera A. "Sodium-ion storage for stationary applications: a deployment-cost
+  perspective", Applied Energy, 2023.
+
+PROJECTS AND FUNDING
+FLEXGRID (national, 2022-2026): storage work package lead.
+STORE-EU (Horizon Europe, 2023-2027): partner, degradation modelling.
+
+TEACHING
+Power Systems Laboratory (M.Sc.), 2022 - present.
+Co-supervisor of 4 master theses.
+
+SKILLS
+Python, MATLAB/Simulink, PLECS, power system simulation, battery testing and
+characterisation, data analysis, technical writing, project management.
+
+LANGUAGES
+Spanish (native), English (C1), Catalan (B2).
+
+PROFESSIONAL ACTIVITY
+Reviewer for IEEE Transactions on Smart Grid and Journal of Energy Storage.
+Member of IEEE Power & Energy Society.
+Speaker at three European energy storage conferences since 2022.

@@ -201,6 +201,8 @@ def load_persona(path: Path) -> dict:
         data = json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as e:
         raise SystemExit(f"{path} is not valid JSON: {e}")
+    if not isinstance(data, dict):
+        raise SystemExit(f"{path} must contain a JSON object, not {type(data).__name__}")
 
     from .agents.persona import PersonaCard  # local import to avoid a circular import
 

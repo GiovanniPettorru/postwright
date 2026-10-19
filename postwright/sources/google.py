@@ -70,10 +70,17 @@ class GoogleNewsSource(Source):
         async with http_client() as c:
             res = await asyncio.gather(*(self._one(c, q) for q in queries), return_exceptions=True)
         out: list[RawPost] = []
+        seen: set[str] = set()
         for q, r in zip(queries, res):
             if isinstance(r, Exception):
                 log.warning("Google News '%s' failed: %s", q, r)
                 self.failures.append(f"Google News [{q}]")
-            else:
-                out += r
+                continue
+            # The same article often matches more than one query. Its id is built from
+            # the source label, which contains the query, so fetch_all() cannot dedupe it.
+            for post in r:
+                key = post.url or post.title
+                if key not in seen:
+                    seen.add(key)
+                    out.append(post)
         return out

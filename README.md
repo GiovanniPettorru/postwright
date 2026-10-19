@@ -56,7 +56,7 @@ You need:
 |---|---|---|
 | **Python 3.11 or newer** | runs the program | free |
 | **A Telegram account** | that is where the bot talks to you | free |
-| **An API key from at least one AI provider** | scoring and writing | pay-per-use, a few cents to a few euros per month |
+| **An API key from at least one AI provider** | scoring and writing | can be free or pay-per-use, a few cents to a few euros per month |
 | *(optional)* **Your LinkedIn data export** | teaches the AI your writing voice | free |
 | *(optional)* **A Raspberry Pi or an always-on computer** | keeps it running 24/7 | — |
 
